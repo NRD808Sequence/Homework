@@ -1,0 +1,23 @@
+VPC CIDR range = 12 total subnets
+Over 4 availability zones
+
+10.75.0.0/16 = this is the trunk of the tree (us-west-1a)
+
+
+4 Public:
+10.75.1.0/24 == public room A
+10.75.2.0/24 == public room B
+10.75.3.0/24 == public room C
+10.75.4.0/24 == public room D
+
+
+8 Private:
+10.75.11.0/24 == public room A
+10.75.12.0/24 == public room B
+10.75.13.0/24 == public room C
+10.75.14.0/24 == public room D
+
+10.75.21.0/24 == public room A
+10.75.22.0/24 == public room B
+10.75.23.0/24 == public room C
+10.75.24.0/24 == public room D
