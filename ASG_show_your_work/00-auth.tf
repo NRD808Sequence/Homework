@@ -11,6 +11,15 @@ terraform {
   }
 }
 
+terraform {
+  backend "s3" {
+    bucket = "generals-fried-chicken-bucket-112525"
+    key    = "class7/fineqts/love251125/state-key"
+    region = "us-east-1"
+  }
+}
+
+
 # AWS Provider configuration
 # This tells Terraform how to connect to AWS
 provider "aws" {

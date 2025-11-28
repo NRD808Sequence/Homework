@@ -28,12 +28,12 @@ echo "
 </head>
 <body>
 <div>
-<h1>AWS Instance Details</h1>
-<h1>Samurai Katana</h1>
+<h1>Class 7 Hungry 🐺 Wolves </h1>
+<h1>AWWWOOOO!/h1>
 
 <br>
-# insert an image or GIF
-<img src="http://starswallpaper.v3wall.com/stars/Laetitia-Casta/wallpaper/1920x1200/Laetitia-Casta-1920x1200-026.jpg" alt="W3Schools.com">
+Laetitia Casta from the island of Corsica
+<img src="https://pleasurephoto.wordpress.com/wp-content/uploads/2014/11/herb-ritts-laetitia-casta-2-for-pirelli-calender-malibu-1998.jpg" alt="W3Schools.com">
 <br>
 
 <p><b>Instance Name:</b> $(hostname -f) </p>

@@ -2,7 +2,7 @@ resource "aws_lb" "main_alb" {
   name               = "app1-load-balancer"
   internal           = false
   load_balancer_type = "application"
-  security_groups    = [aws_security_group.tf-demo-sg-lb.id]
+  security_groups    = [aws_security_group.tf-demo-sg.id]
   subnets            = [
     aws_subnet.public_a.id,
     aws_subnet.public_b.id,
@@ -53,7 +53,7 @@ resource "aws_lb_listener" "http" {
 #   }
 # }
 
-# # output "lb_dns_name" {
-# #   value       = aws_lb.main.dns_name
-# #   description = "The DNS name of the App1 Load Balancer."
-# # }
+output "lb_dns_name" {
+value       = aws_lb.main_alb
+description = "The DNS name of the App1 Load Balancer."
+}
